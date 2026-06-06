@@ -3,7 +3,7 @@
 本项目包含两个连续控制强化学习算法：
 
 ```text
-stable-learning-control-main
+LAC-and-LSAC
 ├── lyapunov_ac    # LAC：最大熵随机策略 + Lyapunov Critic
 └── lyapunov_sac   # LSAC：完整 SAC + Lyapunov Critic
 ```
@@ -317,7 +317,7 @@ reward_curve.png
 config.json
 ```
 
-奖励图只保存 PNG，不再生成 PDF。
+奖励图只保存 PNG。
 
 曲线含义：
 
